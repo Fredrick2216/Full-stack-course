@@ -1,8 +1,4 @@
-Here's a well-structured and visually appealing `README.md` template for your GitHub repository. It includes icons, badges, and a professional design:  
 
----
-
-```md
  🚀 Full Stack Development Journey | TestLeaf  
 
 ![HTML](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
@@ -22,7 +18,7 @@ Welcome to my Full Stack Development journey under TestLeaf! This repository con
 ✅ MongoDB – Database management  
 
 📂 Folder Structure  
-```
+
 📦 FullStack-TestLeaf  
  ┣ 📂 Assignments  
  ┃ ┣ 📂 HTML-CSS  
@@ -31,7 +27,7 @@ Welcome to my Full Stack Development journey under TestLeaf! This repository con
  ┣ 📂 Projects  
  ┣ 📜 README.md  
  ┗ 📜 .gitignore  
-```
+
 
  🚀 Key Features & Learning Goals  
 ✔️ Responsive Web Design 🌐  
@@ -41,20 +37,20 @@ Welcome to my Full Stack Development journey under TestLeaf! This repository con
 ✔️ Deployment & Optimization 🚀  
 
  📈 Progress Tracker  
-- ✅ Completed: HTML & CSS Assignments  
-- 🚧 In Progress: JavaScript Concepts & Projects  
-- 🔜 Next Steps: React & Backend Development 
+ ✅ Completed: HTML & CSS Assignments  
+ 🚧 In Progress: JavaScript Concepts & Projects  
+ 🔜 Next Steps: React & Backend Development 
 
-## 🤝 Connect & Collaborate  
+ 🤝 Connect & Collaborate  
 📧 Email: [Your Email]  
 🔗 LinkedIn: [Your LinkedIn Profile]  
 🌐 GitHub: [Your GitHub Profile]  
 
----
+
 
 Feel free to customize it with your own details! 🚀✨  
 Let me know if you want any modifications. 😃  
-```  
+  
 
 This README includes:  
 ✅ Professional structure 📌  

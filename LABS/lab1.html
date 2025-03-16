@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable Types Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #output {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #333;
+            display: inline-block;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>JavaScript Variable Types</h2>
+    <button type="button" onclick="displayVariables()">Show Variable Info</button>
+    <div id="output">Click the button to see variable info.</div>
+
+    <script>
+        // Declare variables
+        var userName = "Suresh";   // String
+        let userAge = 28;          // Number
+        const isEmployee = true;   // Boolean
+
+        function displayVariables() {
+            // Update values of var and let
+            userName = "Rajesh";  // Changing var
+            userAge = 30;         // Changing let
+            
+            // Attempt to change const (will cause an error)
+            try {
+                isEmployee = false; // This will throw an error
+            } catch (error) {
+                console.error("Error: Cannot reassign a constant variable.");
+            }
+
+            // Display variable values and their types
+            document.getElementById("output").innerHTML = `
+                <p><strong>userName:</strong> ${userName} (Type: ${typeof userName})</p>
+                <p><strong>userAge:</strong> ${userAge} (Type: ${typeof userAge})</p>
+                <p><strong>isEmployee:</strong> ${isEmployee} (Type: ${typeof isEmployee})</p>
+            `;
+        }
+    </script>
+
+</body>
+</html>

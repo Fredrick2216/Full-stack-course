@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Classification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        input {
+            display: block;
+            width: 90%;
+            margin: 10px auto;
+            padding: 8px;
+        }
+        button {
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Web Development Grade Classification</h2>
+        <input type="number" id="html" placeholder="Enter HTML Marks" min="0" max="100">
+        <input type="number" id="css" placeholder="Enter CSS Marks" min="0" max="100">
+        <input type="number" id="js" placeholder="Enter JavaScript Marks" min="0" max="100">
+        <button onclick="calculateGrade()">Calculate Grade</button>
+        <div id="result" class="result"></div>
+    </div>
+
+    <script>
+        function calculateGrade() {
+            let html = parseInt(document.getElementById("html").value);
+            let css = parseInt(document.getElementById("css").value);
+            let js = parseInt(document.getElementById("js").value);
+            let resultDiv = document.getElementById("result");
+
+            if (isNaN(html) || isNaN(css) || isNaN(js)) {
+                resultDiv.textContent = "Please enter valid marks for all subjects.";
+                resultDiv.style.backgroundColor = "gray";
+                return;
+            }
+
+            if (html < 50 || css < 50 || js < 50) {
+                resultDiv.textContent = "Fail";
+                resultDiv.style.backgroundColor = "red";
+                resultDiv.style.color = "white";
+                return;
+            }
+            
+            let total = html + css + js;
+            let classification = "";
+            let bgColor = "";
+
+            if (total >= 240) {
+                classification = "First Class";
+                bgColor = "green";
+            } else if (total >= 210) {
+                classification = "Second Class";
+                bgColor = "yellow";
+            } else if (total >= 180) {
+                classification = "Third Class";
+                bgColor = "lightgreen";
+                resultDiv.style.color = "red";
+            } else {
+                classification = "Pass";
+                bgColor = "black";
+                resultDiv.style.color = "white";
+            }
+
+            resultDiv.textContent = classification;
+            resultDiv.style.backgroundColor = bgColor;
+        }
+    </script>
+</body>
+</html>

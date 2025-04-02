@@ -48,15 +48,4 @@ Welcome to my Full Stack Development journey under TestLeaf! This repository con
 
 
 
-Feel free to customize it with your own details! 🚀✨  
-Let me know if you want any modifications. 😃  
-  
 
-This README includes:  
-✅ Professional structure 📌  
-✅ Badges for tech stack 📛  
-✅ Organized folder structure 📂  
-✅ Progress tracker 📊  
-✅ Contact details 📧  
-
-Let me know if you need any improvements! 🚀🔥

@@ -16,7 +16,7 @@ function displayCourses() {
         li.textContent = `${course.title} - ${course.instructor} - ${course.duration}`
         courseList.appendChild(li)
 
-    })
+    }) 
 }
 
 function display2(){

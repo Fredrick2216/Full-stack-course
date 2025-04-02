@@ -42,9 +42,9 @@ Welcome to my Full Stack Development journey under TestLeaf! This repository con
  🔜 Next Steps: React & Backend Development 
 
  🤝 Connect & Collaborate  
-📧 Email: [Your Email]  
-🔗 LinkedIn: [Your LinkedIn Profile]  
-🌐 GitHub: [Your GitHub Profile]  
+📧 Email: [leonardfredrick2203@gmail.com]  
+🔗 LinkedIn: [https://www.linkedin.com/in/leonard-fredrick-8807042a5/]  
+🌐 GitHub: [https://github.com/Fredrick2216]  
 
 
 

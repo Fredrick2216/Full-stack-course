@@ -31,15 +31,8 @@ Welcome to my Full Stack Development journey under TestLeaf! This repository con
 
  🚀 Key Features & Learning Goals  
 ✔️ Responsive Web Design 🌐  
-✔️ Interactive Web Applications ⚡  
-✔️ Backend API Development 🌎  
-✔️ Database Management 🗃️  
+✔️ Interactive Web Applications ⚡   
 ✔️ Deployment & Optimization 🚀  
-
- 📈 Progress Tracker  
- ✅ Completed: HTML & CSS Assignments  
- 🚧 In Progress: JavaScript Concepts & Projects  
- 🔜 Next Steps: React & Backend Development 
 
  🤝 Connect & Collaborate  
 📧 Email: [leonardfredrick2203@gmail.com]  
